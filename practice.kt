@@ -11,4 +11,11 @@ fun main() {
 
     var website : String
     website = "NimoGrowth"
+
+    var bigByte: Byte = Byte.MAX_VALUE
+    var smallByte: Byte = Byte.MIN_VALUE
+    println("Biggest byte value is " +bigByte)
+    println("Smallest byte value is $smallByte")
+
+    println("666 to char: "+(66.toChar()))
 }
